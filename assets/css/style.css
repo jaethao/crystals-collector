@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.crystalHeader {
+  margin-top: 1em;
+}
+
+.rules {
+  margin-top: 3em;
+}
+
+#display {
+  margin-top: 2em;
+}
+
+#images {
+  margin-top: 2em;
+}
+
+h1, h3, h4 {
+  font-family: 'Leckerli One', cursive;
+}
+
+p {
+  font-family: monospace;
+  font-size: 1em;
+}
