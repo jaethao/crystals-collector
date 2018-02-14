@@ -17,8 +17,8 @@ $( document ).ready(function(){
   var wins= 0;
   var losses = 0;
   //  Decaring variables for tallies
-$('#wins').text(wins);
-$('#losses').text(losses);
+$('#wins').text("Wins: " + wins);
+$('#losses').text("Losses: " + losses);
 //resets the game
 function reset(){
       computerNum = Math.floor(Math.random()*101+19);
@@ -37,16 +37,16 @@ function reset(){
 function winner(){
 alert("You won!");
   wins++;
-  $('#wins').text(wins);
+  $('#wins').text("Wins: " + wins);
   reset();
 };
 //lose function
 function loser(){
 alert ("You lose!");
   losses++;
-  $('#losses').text(losses);
+  $('#losses').text("Losses: " + losses);
   reset();
-};  
+};
 
 //on click functions for each crystals
 //crystal 1
@@ -108,9 +108,9 @@ alert ("You lose!");
   //reset button, will reset game and scores
   $('#restart').on('click', function(){
     wins = 0;
-    $('#wins').text(wins);
+    $('#wins').text("Wins: " + wins);
     losses = 0;
-    $('#losses').text(losses);
+    $('#losses').text("Losses: " + losses);
     reset();
   });
 
