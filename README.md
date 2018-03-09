@@ -8,3 +8,5 @@ Each time when the game starts, the game will change the values of each crystal.
 Crystal Collector was created with HTML, CSS, Javascript, and JQuery.
 
 ![alt text](assets/images/scrn-shot-crystal.png)
+
+Click here for the live game: https://jaethao.github.io/crystals-collector/index.html
