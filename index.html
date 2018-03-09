@@ -13,12 +13,12 @@
 <body>
   <div class="container">
     <header>
-    <h2 class="crystalHeader">Crystal Collector Game</h2>
+    <h1 class="crystalHeader text-center">Crystals Collector Game</h1>
   </header>
     <hr>
     <div class="rules">
-    <h3>Rules</h3>
-    <p>
+    <h3 class="text-center">Rules</h3>
+    <p class="text-center">
       You will be given a random number at the start of the game.
       <br>
       There are  four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
@@ -31,10 +31,16 @@
     </p>
   </div>
     <hr>
-      <h3 class="text-center" id="computer">0</h3>
-    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="text-center">Crystals Number</h3>
+        <h3 class="text-center" id="computer">0</h3>
+      </div>
+      <div class="col-md-6">
     <h3 class="text-center">Crystals collected</h3>
       <h3 class="text-center" id="user">0</h3>
+    </div>
+    </div>
     <hr>
     <div class="text-center">
 <img class="img-thumbnail" id="crystal1" src="assets/images/crystal1.png" alt="watercolor crystal">
@@ -48,9 +54,13 @@
     <br>
     <br>
   <div class= "row">
-    <h3 id="wins" class="col-md-6">Wins: 0</h3>
-    <h3 id="losses" class="col-md-6">Losses: 0</h3>
-    <button type="button" class="btn btn-danger" id="restart">Restart</button>
+    <div class="col-md-4">
+      <h3 id="wins" class="text-center">Wins: 0</h3>
+    </div>
+    <div class="col-md-4"><h3 id="losses" class="text-center">Losses: 0</h3></div>
+    <div class="col-md-4 text-center">
+      <button type="button" class="btn btn-danger" id="restart">Restart</button>
+    </div>
   </div>
     <br>
     <br>
