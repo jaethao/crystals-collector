@@ -2,8 +2,8 @@
 
 body{
 background: url(../images/sky-bg2.png);
-background-repeat: no-repeat;
 background-attachment: fixed;
+background-size: cover;
 }
 
 .crystalHeader {
