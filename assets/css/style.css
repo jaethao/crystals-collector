@@ -16,6 +16,11 @@ background-attachment: fixed;
   margin-top: 3em;
 }
 
+.pad {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 #display {
   margin-top: 2em;
 }
