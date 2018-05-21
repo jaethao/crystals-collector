@@ -13,12 +13,17 @@ background-attachment: fixed;
 }
 
 .rules {
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .pad {
   padding-top: 1em;
   padding-bottom: 1em;
+  cursor: pointer;
+}
+
+#crystal1:hover, #crystal2:hover, #crystal3:hover, #crystal4:hover {
+  opacity: 0.6;
 }
 
 #display {
